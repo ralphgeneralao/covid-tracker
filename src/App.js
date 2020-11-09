@@ -6,6 +6,8 @@ import { Cards, Chart, CountryPicker } from './components';
 import styles from './App.module.css';
 import { fetchData } from './api';
 
+import './app.css';
+
 export default class App extends PureComponent {
   state = {
     data: {},
